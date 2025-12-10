@@ -1,0 +1,36 @@
+# Arquivos de configuração local
+config/database.local.php
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer (se usar no futuro)
+vendor/
+composer.lock
+
+# Node modules (se usar no futuro)
+node_modules/
+package-lock.json
+
+# Arquivos de ambiente
+.env
+.env.local
+
